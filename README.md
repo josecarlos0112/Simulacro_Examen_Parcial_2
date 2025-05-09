@@ -7,9 +7,15 @@
 - **Algoritmo de Dijkstra**: Utiliza una tabla de distancias desde el nodo origen, actualizando las rutas más cortas mediante un enfoque iterativo hasta alcanzar el destino.
 - **Enrutamiento por Inundación (Flooding)**: Envía paquetes por todas las salidas excepto la de entrada. Garantiza entrega, pero con alto coste de ancho de banda. Comparado con Dijkstra, es menos eficiente.
 
+![image](https://github.com/user-attachments/assets/b51edbaa-534c-40d7-9ad1-4bf012d1b769)
+
+
 ### Pregunta 2: Direcciones de Broadcast y Subredes
 - **172.29.152.0/21**: Broadcast = `172.29.159.255`
 - **172.18.26.0/23**: Broadcast = `172.18.27.255`
+
+  ![image](https://github.com/user-attachments/assets/80ca5fc4-0b3d-496d-aeb5-7f881e222d52)
+
 
 ### Pregunta 3: Última Dirección y Rango de Hosts
 - **172.30.67.192/26**: Último host válido = `172.30.67.254`
@@ -29,6 +35,9 @@
 - **UDP**: No orientado a conexión, no garantiza entrega ni orden, más rápido.
 - **Aplicaciones UDP**: Videollamadas, juegos online.
 
+  ![img3](https://github.com/user-attachments/assets/d1afb701-68d7-4b0e-9c7e-d40da8108e15)
+
+
 ### Pregunta 7: Conexiones TCP
 - **Establecimiento (3-way handshake)**: SYN → SYN-ACK → ACK
 - **Terminación (4-way handshake)**: FIN → ACK → FIN → ACK
@@ -45,6 +54,9 @@
 - **Slow Start**: crecimiento exponencial al inicio.
 - **Nagle**: agrupa pequeños segmentos.
 - **Clark (Delayed ACK)**: retrasa ACK para combinarlo con datos de salida.
+
+  ![img4](https://github.com/user-attachments/assets/6c541362-61df-4672-a569-b7782da9dbd4)
+
 
 ## Parte III: Capa de Aplicación y Multimedia
 
@@ -70,6 +82,9 @@
 ### Pregunta 15: Congestión en Multimedia
 - **Buffering**: suaviza variaciones.
 - **DiffServ**: marca paquetes para priorización.
+
+  ![img5](https://github.com/user-attachments/assets/65e1189e-ede5-40eb-8e0d-af249d64d9e7)
+
 
 ### Pregunta 16: Best-Effort vs Multiclase
 - **Best-Effort**: sin garantía de QoS. Ej: navegación web.
@@ -99,3 +114,6 @@
 ### Pregunta 21: SSL/TLS y DNS Spoofing
 - **SSL/TLS**: HTTPS seguro con cifrado y certificados.
 - **DNS Spoofing**: ataques con IP falsas. DNSSEC usa firmas digitales para proteger.
+
+![img6](https://github.com/user-attachments/assets/a5163d2f-c2f0-4cfc-afe7-e50a137820f4)
+
